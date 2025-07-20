@@ -54,7 +54,12 @@ const PerformanceSection = () => {
         </div>
         
         <div className="text-center">
-          <Button variant="hero" size="lg" className="text-lg px-8 py-4">
+          <Button 
+            variant="hero" 
+            size="lg" 
+            className="text-lg px-8 py-4"
+            onClick={() => window.open('https://www.youtube.com/@saranyamangal2804', '_blank')}
+          >
             View Performance Videos
           </Button>
         </div>

@@ -7,13 +7,13 @@ const ContactSection = () => {
     {
       icon: Mail,
       title: "Email",
-      details: "saranya.bmangal@music.com",
+      details: "vainika@saranyamangal.com",
       description: "For booking inquiries and collaborations"
     },
     {
       icon: Phone, 
       title: "Phone",
-      details: "+91 98765 43210",
+      details: "+916238418509",
       description: "Available during business hours"
     },
     {
@@ -66,7 +66,12 @@ const ContactSection = () => {
             Whether you're organizing a cultural event, planning a concert, or simply wish to experience the beauty of veena music, 
             Saranya is ready to bring the timeless art of classical music to your audience.
           </p>
-          <Button variant="elegant" size="lg" className="text-lg px-8 py-4">
+          <Button 
+            variant="elegant" 
+            size="lg" 
+            className="text-lg px-8 py-4"
+            onClick={() => window.open('https://wa.me/916238418509', '_blank')}
+          >
             Book a Performance
           </Button>
         </div>
