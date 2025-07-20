@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/realistic-veena-hero.jpg";
+import heroImage from "/lovable-uploads/7aff4490-9f7a-4872-b99d-d18163ece47a.png";
 
 const HeroSection = () => {
   return (
@@ -26,10 +26,20 @@ const HeroSection = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <Button variant="hero" size="lg" className="text-lg px-8 py-6">
+          <Button 
+            variant="hero" 
+            size="lg" 
+            className="text-lg px-8 py-6"
+            onClick={() => window.open('https://www.youtube.com/@saranyamangal2804', '_blank')}
+          >
             Listen to Performances
           </Button>
-          <Button variant="elegant" size="lg" className="text-lg px-8 py-6">
+          <Button 
+            variant="elegant" 
+            size="lg" 
+            className="text-lg px-8 py-6"
+            onClick={() => window.open('https://wa.me/916238418509', '_blank')}
+          >
             Book a Concert
           </Button>
         </div>
