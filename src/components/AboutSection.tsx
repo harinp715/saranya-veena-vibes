@@ -18,9 +18,8 @@ const AboutSection = () => {
                 <h3 className="text-2xl font-semibold mb-4 text-gold">Musical Heritage</h3>
                 <p className="text-muted-foreground leading-relaxed text-lg">
                   Saranya B. Mangal is a promising young Veena and Vocal artist from Trivandrum. Born to B Balasubramoni and Chitra M, 
-                  she had her initial training from her grandmother Smt N Lalitha (prime disciple of Padmabhushan Sangita Kalanidhi Sri 
-                  KS Narayanaswamy) and vocal training from Sri Nedumkunnam Sreedev. Currently she is undergoing advanced training under 
-                  Padmashri Parassala B Ponnammal.
+                  she had her initial training from her grandmother Late Smt N Lalitha (prime disciple of Padmabhushan Sangita Kalanidhi Sri 
+                  KS Narayanaswamy) and vocal training from Sri Nedumkunnam Sreedev, and got mentored under Late Padmashri Parassala B Ponnammal.
                 </p>
               </CardContent>
             </Card>
@@ -48,7 +47,8 @@ const AboutSection = () => {
                   "National Youth Festival Winner (2011) - Amritsar", 
                   "Senior Scholarship Recipient - Ministry of Culture",
                   "Yuva Sangeetha Prathibha Puraskar 2013 - Swaranjali",
-                  "Sree Neelakanta Sivan Sangeetha Sabha Trust Yuva Puraskar 2014"
+                  "Sree Neelakanta Sivan Sangeetha Sabha Trust Yuva Puraskar 2014",
+                  "M.S.Subbalakshmi fellowship for Music, awarded by Shanmukhananda Sabha in the year 2021"
                 ].map((item, index) => (
                   <li key={index} className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-gradient-to-r from-gold to-warm-earth rounded-full mt-2 flex-shrink-0"></div>
