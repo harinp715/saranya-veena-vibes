@@ -11,16 +11,16 @@ const PhotoGallery = () => {
       description: "Saranya performing traditional Carnatic music on the veena"
     },
     {
-      src: veenaPerformance,
-      alt: "Traditional veena in performance setting",
-      title: "Concert Setting",
-      description: "Traditional veena setup for classical music concerts"
+      src: "/lovable-uploads/6c4a8d82-8962-4940-8a87-6ebc3dbd4280.png",
+      alt: "Saranya B. Mangal with veena in traditional attire",
+      title: "Classical Performance",
+      description: "Saranya showcasing her artistry with the veena in traditional setting"
     },
     {
-      src: concertHall,
-      alt: "Classical music concert hall",
-      title: "Performance Venues",
-      description: "Elegant venues where Saranya has performed across India"
+      src: "/lovable-uploads/c2bb7ab1-fe9f-4d9a-aae1-0c6f39de1a19.png",
+      alt: "Saranya B. Mangal in concert setting with traditional instruments",
+      title: "Concert Ensemble",
+      description: "Saranya in elegant traditional attire surrounded by classical instruments"
     }
   ];
 
