@@ -13,7 +13,7 @@ const VideoGallery = () => {
     {
       title: "Old Classical Hindi Movie",
       embedId: "0HIKSCUegsk",
-      description: "Classic Hindi film music on veena"
+      description: "Classic Hindi film music on veena - featuring the timeless song \"Lag jaa gale\""
     },
     {
       title: "Old Classical Tamil Movie",
