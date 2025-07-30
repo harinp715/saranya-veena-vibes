@@ -3,7 +3,7 @@ const VideoGallery = () => {
     {
       title: "Carnatic Classical",
       embedId: "1U81vYNV4bg",
-      description: "Traditional Carnatic music performance on the veena"
+      description: "Traditional Carnatic music performance on the veena - featuring the kriti \"Pahi Parvatha Nandini\""
     },
     {
       title: "Light Music",
